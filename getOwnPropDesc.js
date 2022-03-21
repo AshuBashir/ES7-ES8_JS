@@ -39,7 +39,7 @@ alert(demo);
 
 
 var result1 = Object.keys(student);
-alert(result1); // will display name and hello   
+alert(result1);   
 
 // setting configurable to false 
 Object.defineProperty(student, "name" ,{configurable: false});
